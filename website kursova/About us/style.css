@@ -1,0 +1,65 @@
+ body {
+    margin: 0 ;
+    background-color: floralwhite;
+}
+body, html {
+    height: 100%;
+}
+
+.navbar {
+    display: block;
+    background-color: lightgray;
+} 
+
+#logo {
+    width: 225px;
+}
+
+.parallax{
+    background-image: url(../css/images/Suzuki-logo-1920x1080.png);
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-left: 245px;
+    margin-bottom: 220px;
+}
+
+.card{
+    display: inline-block;
+}
+
+.card-img-top{
+    height: 178px;
+}
+
+#paragraph{
+    border: 1px solid lightgray;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+    display: inline-block;
+    width: 870px;
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.nav-link {
+    color: black;
+} 
+#footer {
+    display: inline-block;
+    position: fixed;
+    padding: 0px;
+    padding-bottom: 10px;
+    left: 0;
+    bottom: -25px;
+    width: 100%;
+    background-color: lightgray;
+    color: darkblue;
+    text-align: center;
+    font-style: italic;
+}  
+

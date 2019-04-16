@@ -1,0 +1,64 @@
+ body {
+    margin: 0 ;
+    background-color: floralwhite;
+}
+body, html {
+    height: 100%;
+}
+
+.navbar {
+    display: block;
+    background-color: lightgray;
+} 
+
+#logo {
+    width: 225px;
+}
+
+.bg{
+    background-image: url(../css/images/Suzuki-logo-1920x1080.png);
+    height: 79%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#alert {
+	display: inline-block;
+}
+
+#registerForm {
+	max-width: 370px;
+	margin: 50px auto;
+	padding: 20px;
+	border: 1px solid lightgray;
+	border-radius: 15px;
+}
+
+.error {
+	color: red;
+}
+
+.form-check-label{
+    font-style: italic;
+    color: darkgray;
+}
+
+.nav-link {
+    color: black;
+} 
+#footer {
+    display: inline-block;
+    position: fixed;
+    padding: 0px;
+    padding-bottom: 10px;
+    left: 0;
+    bottom: -25px;
+    width: 100%;
+    background-color: lightgray;
+    color: darkblue;
+    text-align: center;
+    font-style: italic;
+} 
+

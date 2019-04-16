@@ -1,0 +1,70 @@
+ body {
+    margin: 0 ;
+    background-color: floralwhite;
+}
+body, html {
+    height: 100%;
+}
+
+.navbar {
+    display: block;
+    background-color: lightgray;
+} 
+
+#logo {
+    width: 225px;
+}
+
+.bg{
+    background-image: url(Suzuki-logo-1920x1080.png);
+    height: 79%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#searchBar{
+    display: inline-block;
+    margin-left: 370px;
+}
+.btn{
+    border-color: black;
+    color: black;
+}
+.btn:hover{
+    background-color: gray;
+}
+
+#radio{
+    color: black;
+    font-style: bold;
+}
+
+#products{
+/*    display: none;*/
+    display: inline-block;
+    padding-bottom: 40px;
+}
+
+.product-item {
+    display: inline-block;
+}
+#img{
+    width: 350px;
+    height: 225px;
+}
+    
+#footer {
+    display: inline-block;
+    position: fixed;
+    padding: 0px;
+    padding-bottom: 10px;
+    left: 0;
+    bottom: -25px;
+    width: 100%;
+    background-color: lightgray;
+    color: darkblue;
+    text-align: center;
+    font-style: italic;
+}
+
