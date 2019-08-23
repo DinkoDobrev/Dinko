@@ -1,0 +1,87 @@
+html{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.cv{
+    font-family: cursive;
+    width: 1270px;
+    margin-left: 30px;
+    
+}
+
+.pinfo{
+    margin-left: 110px;
+    margin-top: 60px;
+}
+
+.info{
+    width: 900px;
+    margin-left: 200px;
+    margin-top: 60px;
+    
+}
+
+fieldset{
+    border-radius: 35px;
+    background-color: lightgray;
+    opacity: 0.75;
+}
+
+legend{
+    font-family: cursive;
+    font-size: larger;   
+}
+
+.fields{
+    padding-bottom: 25px;
+}
+
+.text1, .text2, .text3, .text4{
+    z-index: 1;
+    width: 880px;
+}
+
+.field1, .field2, .field3, .field4{
+    z-index: -1;
+    position: absolute;
+    width: 900px;
+    border-right-width: 2px;
+    left: 200px;
+    margin-top: 13px;
+    margin-right: 0px;
+    margin-left: 0px;   
+}
+
+.field1{
+    height: 160px;
+}
+
+.field2{
+    height: 360px;
+}
+
+.field3{
+    height: 136px;
+
+}
+
+ .field4{
+    height: 100px;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
