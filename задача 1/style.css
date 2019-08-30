@@ -14,8 +14,26 @@ html{
 }
 
 .pinfo{
+    display: inline-block;
+    width: 345px;
     margin-left: 110px;
     margin-top: 60px;
+}
+
+.pic{
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    margin-top: 50px;
+    float: right;
+    margin-right: 155px;
+    
+}
+
+.img{
+    width: 200px;
+    height: 255px;
+    border-radius: 20%;
 }
 
 .info{
@@ -72,6 +90,26 @@ legend{
  .field4{
     height: 100px;
 }
+
+.pics{
+    height: 200px;
+    width: 200px;
+    
+    
+}
+/*
+.pic1, .pic2{
+    width: 350px;
+    height: 490px;
+    display: none;
+    
+}
+
+a:hover {
+    border-image: 
+    display: block;
+}*/
+
 .clearfix:after {
   visibility: hidden;
   display: block;
